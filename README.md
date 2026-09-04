@@ -151,8 +151,8 @@ GROUP BY c.Name;<br>
 
 # 📌Getting Started
 # 1. Backend
-cd backend
-npm run start:dev
+cd backend<br>
+npm run start:dev<br>
 
 Create a .env file:
 
@@ -166,8 +166,8 @@ JWT_SECRET=your_jwt_secret
 EXCHANGE_RATE_API_KEY=your_api_key
 
 # 2. Frontend
-cd frontend
-npm run dev
+cd frontend<br>
+npm run dev<br>
 
 # 🎓 About the Project
 
