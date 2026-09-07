@@ -13,6 +13,9 @@ export class SuppliersService {
   findAll() {
     return this.supplierRepository.find();
   }
+  async count(): Promise<number> {
+    return await this.supplierRepository.count();
+  }
 
   create(data: { name: string; contactInfo: string }) {
     const supplier = this.supplierRepository.create(data);

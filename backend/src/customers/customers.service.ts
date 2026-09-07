@@ -14,6 +14,10 @@ export class CustomersService {
     return this.customerRepository.find({ relations: ['orders'] });
   }
 
+  async count(): Promise<number>{
+    return this.customerRepository.count();
+  }
+
   create(data: { fullName: string; phone: string; initialAmount: number }) {
     const customer = this.customerRepository.create(data);
     return this.customerRepository.save(customer);

@@ -10,9 +10,9 @@ export class SuppliersController {
     return this.suppliersService.findAll();
   }
   @Delete(':id')
-delete(@Param('id') id: number) {
-  return this.suppliersService.delete(id);
-}
+  delete(@Param('id') id: number) {
+    return this.suppliersService.delete(id);
+  }
   @Post()
   create(@Body() body: { name: string; contactInfo: string }) {
     return this.suppliersService.create(body);

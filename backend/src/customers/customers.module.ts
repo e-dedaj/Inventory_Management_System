@@ -9,6 +9,7 @@ import { Customer } from '../entities/customer.entity'; // 2. Shto kët me rrug�
     TypeOrmModule.forFeature([Customer]) // 3. Regjistro tabelën Customer këtu
   ],
   controllers: [CustomersController],
-  providers: [CustomersService]
+  providers: [CustomersService],
+  exports: [CustomersService],
 })
 export class CustomersModule {}
