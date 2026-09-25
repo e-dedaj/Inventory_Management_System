@@ -4,9 +4,9 @@ This project was developed using React (Vite) for the Frontend, NestJS for the B
 
 # 🚀 Tech Stack
 # Frontend
-*React.js
-*React Router
-*CSS / Custom UI
+* React.js
+* React Router
+* CSS / Custom UI
 # Backend
 * NestJS
 * Node.js
@@ -156,14 +156,14 @@ npm run start:dev<br>
 
 Create a .env file:
 
-PORT=your_port
-DB_HOST=your_db_host
-DB_PORT=your_db_port
-DB_USERNAME=your_db_username
-DB_PASSWORD=your_db_password
-DB_DATABASE=your_db_database
-JWT_SECRET=your_jwt_secret
-EXCHANGE_RATE_API_KEY=your_api_key
+PORT=your_port<br>
+DB_HOST=your_db_host<br>
+DB_PORT=your_db_port<br>
+DB_USERNAME=your_db_username<br>
+DB_PASSWORD=your_db_password<br>
+DB_DATABASE=your_db_database<br>
+JWT_SECRET=your_jwt_secret<br>
+EXCHANGE_RATE_API_KEY=your_api_key<br>
 
 # 2. Frontend
 cd frontend<br>
