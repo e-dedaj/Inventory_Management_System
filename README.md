@@ -169,6 +169,13 @@ EXCHANGE_RATE_API_KEY=your_api_key<br>
 cd frontend<br>
 npm run dev<br>
 
+# Preview
+<img width="1917" height="913" alt="image" src="https://github.com/user-attachments/assets/df4afec4-1fc5-4d20-b930-f7ba798057dd" />
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/abc4f262-d68b-4af3-bc87-75f67f409701" />
+<img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/bed26c2f-b77f-49ec-b1ae-7d775438c903" />
+
+
+
 # 🎓 About the Project
 
 The purpose of this project is to build a full-stack Inventory & Order Management System that simplifies store management while demonstrating the practical use of modern web development technologies.
